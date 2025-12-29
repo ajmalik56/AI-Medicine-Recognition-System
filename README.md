@@ -14,50 +14,17 @@ To get a local copy up and running follow these simple example steps.
 
 ## Installation Steps
 
-### Option 1: Installation from GitHub
 
-Follow these steps to install and set up the project directly from the GitHub repository:
+    
 
-1. **Clone the Repository**
-   - Open your terminal or command prompt.
-   - Navigate to the directory where you want to install the project.
-   - Run the following command to clone the GitHub repository:
-     ```
-     git clone https://github.com/KalyanMurapaka45/--------------------.git
-     ```
 
-2. **Create a Virtual Environment** (Optional but recommended)
-   - It's a good practice to create a virtual environment to manage project dependencies. Run the following command:
-     ```
-     conda create -p <Environment_Name> python==<python version> -y
-     ```
 
-3. **Activate the Virtual Environment** (Optional)
-   - Activate the virtual environment based on your operating system:
-       ```
-       conda activate <Environment_Name>/
-       ```
 
-4. **Install Dependencies**
-   - Navigate to the project directory:
-     ```
-     cd [project_directory]
-     ```
-   - Run the following command to install project dependencies:
-     ```
-     pip install -r requirements.txt
-     ```
-
-5. **Run the Project**
-   - Start the project by running the appropriate command.
-     ```
-     python app.py
-     ```
 
 6. **Access the Project**
    - Open a web browser or the appropriate client to access the project.<br>
 
-### Option 2: Installation from DockerHub
+## Installation from DockerHub
 
 If you prefer to use Docker, you can install and run the project using a Docker container from DockerHub:
 
@@ -71,10 +38,8 @@ If you prefer to use Docker, you can install and run the project using a Docker 
 
 2. **Run the Docker Container**
    - Start the Docker container by running the following command. Adjust the port mapping as needed:
-     ```
-     docker run -p 5000:5000 kalyan45/movierecommend-app
-     ```
-     This command launches the project within a Docker container.
+    
+    
 
 3. **Access the Project**
    - Open a web browser or the appropriate client to access the project.<br>
@@ -85,7 +50,7 @@ If you prefer to use Docker, you can install and run the project using a Docker 
 To use this project, you need an API key from Google Gemini Large Language Model. Follow these steps to obtain and set up your API key:
 
 1. **Get API Key:**
-   - Visit Alkali App [Click Here](https://makersuite.google.com/app/apikey).
+   
    - Follow the instructions to create an account and obtain your API key.
 
 2. **Set Up API Key:**
@@ -116,16 +81,6 @@ Contributions are what make the open-source community such an amazing place to l
 
 #### Don't forget to give the project a star! Thanks again!
 
-## License
-
-This project is licensed under the [Open Source Initiative (OSI)](https://opensource.org/) approved GNU General Public License v3.0 License - see the [LICENSE.txt](LICENSE.txt) file for details.<br>
 
 
-## Contact Details
 
-Hema Kalyan Murapaka - [kalyanmurapaka274@gmail.com](kalyanmurapaka274@gmail.com)<br>
-
-
-## Acknowledgements
-
-We'd like to extend our gratitude to all individuals and organizations who have played a role in the development and success of this project. Your support, whether through contributions, inspiration, or encouragement, has been invaluable. Thank you for being a part of our journey.
